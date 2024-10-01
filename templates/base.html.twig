@@ -10,8 +10,13 @@
         {% block javascripts %}
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
+
+        <link rel="stylesheet" href="header.css">
     </head>
     <body>
+        <header>
+            <h1>Super Titre en Header</h1>
+        </header>
         {% block body %}{% endblock %}
     </body>
 </html>
