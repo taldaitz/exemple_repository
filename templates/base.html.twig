@@ -11,6 +11,7 @@
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
 
+        <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="header.css">
     </head>
     <body>
@@ -18,5 +19,9 @@
             <h1>Super Titre en Header</h1>
         </header>
         {% block body %}{% endblock %}
+
+        <footer>
+            <p>Footer de la page</p>
+        </footer>
     </body>
 </html>
