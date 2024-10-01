@@ -10,8 +10,14 @@
         {% block javascripts %}
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
+
+        <link rel="stylesheet" href="footer.css">
     </head>
     <body>
         {% block body %}{% endblock %}
+
+        <footer>
+            <p>Footer de la page</p>
+        </footer>
     </body>
 </html>
